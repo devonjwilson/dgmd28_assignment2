@@ -1,0 +1,53 @@
+<!-- Referenced pages provided as Week1 class resources  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2-1 DGMD28 Devon</title>
+    <style>
+
+.box > * {
+    border: 2px solid rgb(192,192,192);
+    border-radius: 5px;
+    width:100px;
+    height:100px;
+    margin:5px;
+    font-size:90px;
+    text-align:center;
+    }
+
+    .box > *:hover {
+    background: lightgrey;
+    }
+  
+  .box {
+    display: flex;
+  }
+    </style>
+</head>
+<body>
+    <!-- Row 1 -->
+    <div class="box">
+        <div>X</div>
+        <div>X</div>
+        <div></div>
+      </div>
+
+    <!-- Row 2 -->
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div>O</div>
+      </div>
+
+    <!-- Row 3 -->
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    
+</body>
+</html>
